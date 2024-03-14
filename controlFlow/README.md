@@ -156,3 +156,24 @@ let authenticationStatus = isAuthenticated ? "Authenticated" : "Not authenticate
 ```javascript
 console.log("Authentication Status:", authenticationStatus);
 ```
+
+---
+
+# Summary
+Using conditional statements and control flow, you can direct how a program behaves based on different situations or criteria, allowing for decision-making and defining specific pathways within the code.
+
+1. Variables declaration:
+
+- Set up a HTML file linked to a JavaScript file in a folder named "controlFlow."
+- Create variables for userRole, accessLevel, isLoggedIn, userMessage, userType, userCategory, isAuthenticated, and authenticationStatus.
+
+2. Implementing control flow:
+
+- Use if…else statements to assign access levels based on user roles.
+Implement nested if…else statements to customize messages based on login status and user roles.
+- Utilize a switch statement to categorize users based on their type.
+
+3. Ternary operator for authentication:
+
+- Use a ternary operator to determine the authentication status.
+- Depending on the value of isAuthenticated, set the authenticationStatus as "Authenticated" or "Not authenticated."

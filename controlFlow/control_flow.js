@@ -1,4 +1,4 @@
-// Defining variables and if else statement for userRole and accessLevel
+// Step 01: Defining variables and if else statement for userRole and accessLevel
 
 let userRole = "admin";
 let accessLevel;
@@ -14,7 +14,7 @@ if (userRole === "admin") {
 console.log("Access Level:", accessLevel)
 
 
-// Definining variables and nested if...else statement for 
+// Step 02: Definining variables and nested if...else statement for 
 // isLoggedIn and userMessage
 
 let isLoggedIn = true;
@@ -33,7 +33,7 @@ if (isLoggedIn) {
 console.log("User Message:", userMessage);
 
 
-// Defining variables and switch statement for userType and userCategory
+// Step 03: Defining variables and switch statement for userType and userCategory
 let userType = "subscriber";
 let userCategory;
 
@@ -52,3 +52,9 @@ switch (userType) {
 }
 
 console.log("User Category:", userCategory );
+
+// Step 04: Use ternary operator for isAuthenticated and authenticationStatus
+let isAuthenticated = true;
+let authenticationStatus = isAuthenticated ? "Authenticated" : "Not authenticated";
+
+console.log("Authentication Status:", authenticationStatus);

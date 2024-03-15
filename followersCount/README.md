@@ -112,3 +112,24 @@ function increaseCount() {
   checkCountValue(); // Check count value and display messages
 }
 ```
+
+# Practice task
+
+1. In this task you need to create a reset button which will reset the followers count code. For this you need to include:
+
+- One button to represent Reset Count in followers_count.html file.
+
+- Then create one function in followers_count.js file to reset count to 0.
+
+- Also use alert popup box method to show alert message which will say that the Followers count has been reset.
+
+
+---
+
+# Summary
+
+- Setting Up the Environment: HTML structure with a header displaying the account holder's name (Peter Parker) and a follower count displayed as "0" within a span element.
+
+- Defining Variables and Functions: A button triggers the "increaseCount()" function, incrementing the follower count when clicked, updating the displayed count dynamically, and triggering alerts at 10 and 20 follower milestones.
+
+- Displaying Incremental Result: JavaScript functions manage the count incrementation, display of follower count on the HTML page, and the conditional display of congratulatory messages for specific follower milestones (10 and 20 followers).
